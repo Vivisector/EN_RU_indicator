@@ -1,0 +1,4 @@
+pystray==0.19.5
+pillow==11.1.0
+pywin32==310
+xkbgroup==0.10 #библа для Linux
