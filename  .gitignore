@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyInstaller
+#  Обычно создаёт папки dist/, build/ и файл .spec
+build/
+*.spec
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# PyCharm project files
+.idea/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+
+# Python dependency management
+poetry.lock
+Pipfile.lock
+
+# Backup files
+*.bak
+*.swp
