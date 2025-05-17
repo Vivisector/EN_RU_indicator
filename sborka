@@ -1,0 +1,10 @@
+pyinstaller --onefile --noconsole --add-data "engl3.wav;." --add-data "rus2.wav;." SndClav.py
+
+pyinstaller --onefile --windowed --add-data "engl3.wav;." --add-data "rus2.wav;." --add-data "icon.png;." SndClav.py
+
+pyinstaller --onefile --windowed --add-data "engl3.wav;." --add-data "rus2.wav;." --add-data "icon.png;." SndClav_tray.py
+pyinstaller --onefile --windowed --add-data "engl3.wav;." --add-data "rus2.wav;." --add-data "mIcon2.png;." SndClav_Params.py
+
+
+pyinstaller --noconfirm --onefile --windowed --icon=icon.ico en_ru_mode.py
+pyinstaller --noconfirm --onefile --windowed en_ru_mode.py
